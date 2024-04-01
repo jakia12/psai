@@ -49,7 +49,11 @@
   max-width: 350px;
   height: 400px;
 }
+
 @media screen and (max-width: 768px) {
+  .mb_pad {
+    padding: 80px 25px !important;
+  }
   .img_ban {
     max-width: 100%;
   }
@@ -86,4 +90,8 @@
 .techio-feature-block {
   border: 2px solid #5706b5;
   margin-bottom: 24px;
+}
+
+.webinar-highlight-one {
+  left: -76px !important;
 }
